@@ -1,0 +1,64 @@
+:root {
+  /* Your default theme */
+  --background: #f0f2f5;
+  --foreground: #2b3035;
+  --selected: #000000;
+  --unselected: #8b8b8b;
+  --toptextcolor: #f0f2f5;
+}
+
+[data-theme="dark"] {
+  --background: #2b3035;
+  --foreground: #f0f2f5;
+  --selected: #f0f2f5;
+  --unselected: #c2c2c2;
+  --toptextcolor: #f0f2f5;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.card-hover {
+  transition: transform 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: scale(1.10);
+}
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(238, 130, 238, 0.75); /* Pembe (instagram tarzı) */
+  }
+  100% {
+    box-shadow: 0 0 0 15px rgba(238, 130, 238, 0); /* Pembe */
+  }
+}
+.top-button:hover{
+  color: #000; /* Renk beyaza dönecek */
+}

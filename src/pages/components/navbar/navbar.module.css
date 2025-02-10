@@ -1,0 +1,7 @@
+
+.selected{
+    color: var(--selected);
+}
+.unselected{
+    color: var(--unselected);
+}
