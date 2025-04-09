@@ -32,42 +32,6 @@ const uzmanlarimiz = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col xl={3} className="mt-5 d-flex justify-content-center">
-            <Card
-              text={resolvedTheme === "light" ? "dark" : "white"}
-              bg={resolvedTheme}
-              style={{ position: "inherit" }}
-            >
-              <Image
-                variant="top"
-                style={{width: "90%", height: "50vh",marginLeft:'5%' }}
-                src="ÜLKERRENÇBER.jpeg"
-              />
-              <Card.Body style={{ maxWidth: "350px" }}>
-                <Card.Title>ÜLKER ​RENÇBER</Card.Title>
-                <Card.Text>
-                  Oyun Terapisti/Odyoloji ve İşitsel Rehabilitasyon Uzmanı
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col xl={3} className="mt-5 d-flex justify-content-center mb-5">
-            <Card
-              text={resolvedTheme === "light" ? "dark" : "white"}
-              bg={resolvedTheme}
-              style={{ position: "inherit" }}
-            >
-              <Image
-                variant="top"
-                style={{width: "90%", height: "50vh",marginLeft:'5%' }}
-                src="İSMAİLTAN.jpeg"
-              />
-              <Card.Body style={{ maxWidth: "350px" }}>
-                <Card.Title>İSMAİL TAN</Card.Title>
-                <Card.Text>Özel Eğitim Alan Uzmanı / Oyun Terapisti</Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
         </Row>
         <Row className="justify-content-center">
           <Col xl={4} className="mt-5 d-flex justify-content-center mb-1">

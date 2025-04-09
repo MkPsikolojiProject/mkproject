@@ -295,6 +295,7 @@ export default function Home() {
                   />
                   <Card.Body style={{ justifyContent: "center" }}>
                     <Card.Title>Dikkat Geliştirme</Card.Title>
+                    <Card.Title>(Moxo Testi)</Card.Title>
                     <Card.Text>
                       <Button
                         href="tel:+905050254400"
